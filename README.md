@@ -2,7 +2,7 @@
 Block Strike 6.0.9 work
 Give for free sources 6.0.9 working with all fixes + tutorials
 
-Отдам даром исходники 6.0.9 рабочие со всеми фиксами + туториал
+Отдам даром (БЕСПЛАТНО) исходники 6.0.9 рабочие со всеми фиксами + туториал
 # Contact me
 Telegram - https://t.me/Drrixs
 
