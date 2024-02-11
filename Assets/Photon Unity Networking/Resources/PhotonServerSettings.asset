@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a4b8886a06425f488882e3ade835fd8, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppID: 7ad48c53-8dd1-4d4f-b9bc-6ac64f179128
+  VoiceAppID: 
+  ChatAppID: 
+  HostType: 4
+  PreferredRegion: 0
+  EnabledRegions: -169
+  Protocol: 0
+  ServerAddress: 
+  ServerPort: 5055
+  VoiceServerPort: 5055
+  JoinLobby: 1
+  EnableLobbyStatistics: 0
+  PunLogging: 0
+  NetworkLogging: 1
+  RunInBackground: 1
+  RpcList:
+  - AutoGoal
+  - Chat
+  - CheckPlayers
+  - DeactiveBlock
+  - DeactiveBlocks
+  - DestroyRpc
+  - EventPickupBox
+  - GoalPlayer
+  - InstantiateRpc
+  - MasterPickupBox
+  - OnAwakeRPC
+  - OnCreatePlayer
+  - OnFinishRound
+  - OnKilledPlayer
+  - OnLoadNextMap
+  - OnSendKillerInfo
+  - OnWinPlayer
+  - PhotonActivePlayer
+  - PhotonAddDamage
+  - PhotonConnected
+  - PhotonDamage
+  - PhotonDeactivePlayer
+  - PhotonFireWeapon
+  - PhotonForce
+  - PhotonHideBlock
+  - PhotonHideBoxes
+  - PhotonNextLevel
+  - PhotonOnScore
+  - PhotonReloadWeapon
+  - PhotonSendTime
+  - PhotonSetPosition
+  - PhotonSetRotation
+  - PhotonSetTeam
+  - PhotonSetWeapon
+  - PhotonSpawnPlayer
+  - PhotonStartRound
+  - PhotonUpdateFireStatValue
+  - PickupItemInit
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupItems
+  - RequestForPickupTimes
+  - SetNextJuggernaut
+  - StartTimer
+  - UpdateTimer
+  - PhotonFire
+  - PhotonDead
+  - AnotherRPCMethod
+  - MyRPCMethod
+  - EventPickupWeapon
+  - MasterPickupWeapon
+  - PhotonCreateWeapon
+  - UpdateRoundInfo
+  - HitPlayer
+  - PhotonCreateZombie
+  - SetRoles
+  - SetTime
+  - PhotonSetHealth
+  - PhotonSetTopList
+  - PhotonSetDataTopList
+  - DeactiveButton
+  - DeactiveButtons
+  - OnTest
+  - PhotonAddFriend
+  - PhotonCheckTime
+  - PhotonDeactiveBomb
+  - PhotonDeactiveBombExit
+  - PhotonDeactiveBoom
+  - PhotonGetSelectPlayerInfo
+  - PhotonKickPlayer
+  - PhotonLoadNextLevel
+  - PhotonMasterPickupBomb
+  - PhotonMasterPickupPistol
+  - PhotonMasterPickupWeapon
+  - PhotonNewLine
+  - PhotonOnPhotonPlayerConnected
+  - PhotonPickupBomb
+  - PhotonPickupPistol
+  - PhotonPickupWeapon
+  - PhotonSetBomb
+  - PhotonSetSelectPlayerInfo
+  - PhotonShow
+  - PhotonUpdateScore
+  - SetStartRoundBomb
+  - PhotonChatNewLine
+  - PhotonStatusNewLine
+  - PhotonClickButton
+  - PhotonAddClan
+  DisableAutoOpenWizard: 0

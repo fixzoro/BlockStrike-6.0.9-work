@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08cafb96d49149c4b99db8204b23c299, type: 3}
+  m_Name: TileAtlasManager
+  m_EditorClassIdentifier: 
+  mat: {fileID: 2100000, guid: 580173627eae1ff449abd974856cc45e, type: 2}
+  data:
+  - mat: {fileID: 2100000, guid: ed5a2e7351c028f4891753676a92ef5c, type: 2}
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 222a838a18078604c9d55965c815c0cd, type: 2}
+    x: 1
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 8dbba266dbc0f784292353e9d6325439, type: 2}
+    x: 2
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 2f9396b1122f2554cb07cd301011b3ab, type: 2}
+    x: 3
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 29ba72b3152b35e40bb18fb6d6b760ff, type: 2}
+    x: 4
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: a8c8b8c5191561f438163946e30a62bd, type: 2}
+    x: 5
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: e9eaa62f04b7c32469c545462976e973, type: 2}
+    x: 6
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: d2b8b9a916b95bc4fa7017824b561c2b, type: 2}
+    x: 7
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 4c3381d98d1b66c4babd9a8d57ce8117, type: 2}
+    x: 8
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 71b53bbfe2656c94d96018d2c0875129, type: 2}
+    x: 9
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: a4190fd94b80e7845a8052d45ac1923d, type: 2}
+    x: 10
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 763fa821a30a6b2438b36fe64f0df9d9, type: 2}
+    x: 11
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: c6c00a30b640df440abd945e974a0fc0, type: 2}
+    x: 12
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 9d962456fe074c24e8d7a77d472878fd, type: 2}
+    x: 13
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 3cff5399c5febf242bcd57bafbcf5023, type: 2}
+    x: 14
+    y: 0
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 6a274f435b01a6a46a674bc7193a03de, type: 2}
+    x: 0
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: d5e91d56512b7674daef4aa91dbfd969, type: 2}
+    x: 1
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 613ac0c39351cf54190004c3cb808726, type: 2}
+    x: 2
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 07e157656e90b73448460d3272a66810, type: 2}
+    x: 3
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 8c0ae58b23c13d14e971ebc480de53c1, type: 2}
+    x: 4
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 2140f3af9a9f1934ea6d25a3f5757317, type: 2}
+    x: 5
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: b70ec3eae373816488b5153fbe6b2c5d, type: 2}
+    x: 6
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 9d3b80fa07a8b904a9949078764e42a9, type: 2}
+    x: 7
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: eb569176ef4b78d4691129e2bd68e41b, type: 2}
+    x: 8
+    y: 1
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 69259d3f444b02b4c9eb35b81075852e, type: 2}
+    x: 0
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 7db86fc0c4e8d9140a722dab357f58ba, type: 2}
+    x: 1
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 111fc3d8f3fd5b642baf48423e996267, type: 2}
+    x: 2
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 71b53bbfe2656c94d96018d2c0875129, type: 2}
+    x: 3
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 41c912514ba32c4449a859bfe87693ae, type: 2}
+    x: 4
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 0595351c7971ef146b05ef1a549f51bc, type: 2}
+    x: 5
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: bbb22862a1ac58140ade996e001925c0, type: 2}
+    x: 6
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 1faadddc4e2b4534b91f554e2d307c06, type: 2}
+    x: 7
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 09446f273ca519d498e2c373a87adcaa, type: 2}
+    x: 8
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: e2cef5cce33485445a5111738d242102, type: 2}
+    x: 9
+    y: 2
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: e1749f803ec724b488aaa2f48db18652, type: 2}
+    x: 0
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: bc5bb3b7cb1116e408f18ae29a97bf36, type: 2}
+    x: 1
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 08ed50d9fa253da489905ba7b4c70744, type: 2}
+    x: 2
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 221a14bae4c259c4ab620d631b97f6f7, type: 2}
+    x: 3
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: ac4395578f4b49b428437f84d94c3019, type: 2}
+    x: 4
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: ae93b41c632ba9544ace4e6c584f00b1, type: 2}
+    x: 5
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: b3144b8ab559e4c4284f593eed5ad7bd, type: 2}
+    x: 6
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 0759d239d210826498b5707e290540d8, type: 2}
+    x: 7
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 51d0258a4123b7b428c35353b1a36e92, type: 2}
+    x: 8
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 35d747ca0aace214cacbe955fc604cb5, type: 2}
+    x: 9
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: fbe1f7d1ff5278f40ad1f19e9363ed5c, type: 2}
+    x: 10
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: afdde154d57f72340a6b67e33911e778, type: 2}
+    x: 11
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: c419c8f5215b7d345a09da95b742f370, type: 2}
+    x: 12
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: e4ba932613aafe343b42a2842f8df72f, type: 2}
+    x: 13
+    y: 3
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 602a5a95f1e52f242a2f18a2c94a0fbe, type: 2}
+    x: 0
+    y: 4
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 11d8952d4ff9cee4f9a1f53950760c0a, type: 2}
+    x: 1
+    y: 4
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: c67fae982e39c77449770ad4289f7dff, type: 2}
+    x: 2
+    y: 4
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 4a2bb7c0bc8121040a39902030b723d3, type: 2}
+    x: 0
+    y: 5
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: f44729c7131323742a3c8fb2a3f12925, type: 2}
+    x: 1
+    y: 5
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 74f5dbab7b9d8d443a3afe26ed5980f5, type: 2}
+    x: 2
+    y: 5
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: a652d3bcaca789e428df2103462bc88c, type: 2}
+    x: 3
+    y: 5
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: fe90f60b3c81af842b6f2e93f4468754, type: 2}
+    x: 0
+    y: 6
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 27203c2140a0d0c44878a75f8c906b0f, type: 2}
+    x: 1
+    y: 6
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 8fd1b4614867acd49ae95bbeac8a7db6, type: 2}
+    x: 0
+    y: 7
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 17dc38a20724e0e4495c9cf4cc734de4, type: 2}
+    x: 1
+    y: 7
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 6b2690208f796f543a2cc85a0256ebd2, type: 2}
+    x: 2
+    y: 7
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: ba9de4011679c28459cf6429f245d2fc, type: 2}
+    x: 3
+    y: 7
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 87f3a5f871a8f7942a6025d5a7096d55, type: 2}
+    x: 4
+    y: 7
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 95e9535053e4bbe46aff4eafd25691d8, type: 2}
+    x: 5
+    y: 7
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 8d864d93a0305ea4ab90a31cb2666e34, type: 2}
+    x: 0
+    y: 8
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: f8703a688e9ea1a43a068f84c8db8c32, type: 2}
+    x: 0
+    y: 9
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 22004a97fc5724a4fa6a264a8083c190, type: 2}
+    x: 0
+    y: 10
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: 7004e818e3f8b9540b662d2be372734f, type: 2}
+    x: 0
+    y: 11
+    width: 1
+    height: 1
+  - mat: {fileID: 2100000, guid: e97b60e89d960004abd65a327f24be01, type: 2}
+    x: 0
+    y: 12
+    width: 1
+    height: 1
